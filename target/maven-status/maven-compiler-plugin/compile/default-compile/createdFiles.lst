@@ -1,0 +1,11 @@
+com\example\preguntados\entity\Question.class
+com\example\preguntados\repository\QuestionRepository.class
+com\example\preguntados\service\service\QuestionService.class
+com\example\preguntados\dto\Mapper\ModelMapperImpl.class
+com\example\preguntados\PreguntadosApplication.class
+com\example\preguntados\utility\Category.class
+com\example\preguntados\controller\TriviaController.class
+com\example\preguntados\dto\Mapper\ModelMapperInterface.class
+com\example\preguntados\service\impl\QuestionServiceImp.class
+com\example\preguntados\dto\responseDto\QuestionResponseDto.class
+com\example\preguntados\dto\requestDto\QuestionRequestDto.class
