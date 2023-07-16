@@ -5,11 +5,12 @@ FROM openjdk:11-jdk-slim
 WORKDIR /Preguntados
 
 # Copia el archivo JAR de tu aplicación a la imagen
-COPY target/Preguntados-0.0.1-SNAPSHOT.jar Preguntados-0.0.1-SNAPSHOT.jar
+COPY Preguntados/target/Preguntados-0.0.1-SNAPSHOT.jar Preguntados-0.0.1-SNAPSHOT.jar
 
 # Copia el archivo de configuración de la base de datos (si es necesario)
 COPY src/main/resources/application.properties application.properties
 
+COPY Preguntados/dockerFile dockerFile
 # Expone el puerto en el que tu aplicación escucha (ajústalo según tus necesidades)
 EXPOSE 8080
 
